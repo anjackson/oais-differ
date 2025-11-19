@@ -1,4 +1,4 @@
-![Image](artifects/image_000000_6f6ae796946b7d01dcfd30d782fa7e8aa0b0cbf4720f9cdb0a81499d0ea0cb7b.png)
+![Image](artifacts/image_000000_6f6ae796946b7d01dcfd30d782fa7e8aa0b0cbf4720f9cdb0a81499d0ea0cb7b.png)
 
 ## CCSDS Historical Document
 
@@ -16,7 +16,7 @@ http://public.ccsds.org/publications/
 
 January 2002
 
-![Image](artifects/image_000001_5608c58ca0cb2d2f5c2a17df883563da0ecb7f718f7ed124acf3d57ee5fdf02c.png)
+![Image](artifacts/image_000001_5608c58ca0cb2d2f5c2a17df883563da0ecb7f718f7ed124acf3d57ee5fdf02c.png)
 
 CCSDS HISTORICAL DOCUMENT
 
@@ -707,7 +707,7 @@ The simple model shown in figure 2-1 depicts the environment surrounding an OAIS
 
 Figure 2-1:  Environment Model of an OAIS
 
-![Image](artifects/image_000002_cc1ca2b79832f56a4b57193e5efc79ef4f9a7b117b82b1b89d1157c10fc395d3.png)
+![Image](artifacts/image_000002_cc1ca2b79832f56a4b57193e5efc79ef4f9a7b117b82b1b89d1157c10fc395d3.png)
 
 Outside the OAIS are Producers , Consumers , and Management .
 
@@ -741,7 +741,7 @@ the  table.    In  general,  it  can  be  said  that  'Data  interpreted  using 
 
 Figure 2-2:  Obtaining Information from Data
 
-![Image](artifects/image_000003_4c2aa4e2466037b2ed472e92ebdbb51b9fcedd72e8550bc85b14725bdd7df324.png)
+![Image](artifacts/image_000003_4c2aa4e2466037b2ed472e92ebdbb51b9fcedd72e8550bc85b14725bdd7df324.png)
 
 In order for this Information Object to be successfully preserved, it is critical for an OAIS to  clearly  identify  and  understand  the Data  Object and  its  associated  Representation Information.  For digital information, this means the OAIS must clearly identify the bits and the Representation Information that applies to those bits.  This required transparency to the bit level is a distinguishing feature of digital information preservation, and it runs counter to object-oriented  concepts  which  try  to  hide  these  implementation  issues.    This  presents  a significant challenge to the preservation of digital information.
 
@@ -769,7 +769,7 @@ These Information Package relationships are shown schematically in figure 2-3.
 
 Figure 2-3:  Information Package Concepts and Relationships
 
-![Image](artifects/image_000004_8032538c1f82f8e7ba684096c8c660e1527f714346eccfc0872cb504fd89e599.png)
+![Image](artifacts/image_000004_8032538c1f82f8e7ba684096c8c660e1527f714346eccfc0872cb504fd89e599.png)
 
 The Content Information is that information which is the original target of preservation.  It consists  of  the  Content  Data  Object  (Physical  Object  or  Digital  Object,  i.e.,  bits)  and  its associated Representation Information needed to make the Content Data Object understandable to the Designated Community.  For example, the CDO may be an image that
 
@@ -806,7 +806,7 @@ The following subsections present a high-level view of the interaction between t
 
 Figure 2-4:  OAIS Archive External Data
 
-![Image](artifects/image_000005_a6810668d275bd140155ad1c0b4fb7471a162f52b40a9a67a91f0c089bc809f0.png)
+![Image](artifacts/image_000005_a6810668d275bd140155ad1c0b4fb7471a162f52b40a9a67a91f0c089bc809f0.png)
 
 ## 2.3.1 MANAGEMENT INTERACTION
 
@@ -946,7 +946,7 @@ The  OAIS  of  figure  2-1  is  separated  in  figure  4-1  into  six  functiona
 
 Figure 4-1:  OAIS Functional Entities
 
-![Image](artifects/image_000006_745259a000fdf3e585f9a96e8250e1e21eaaaa5bdc6787a620db991c49efea67.png)
+![Image](artifacts/image_000006_745259a000fdf3e585f9a96e8250e1e21eaaaa5bdc6787a620db991c49efea67.png)
 
 The role provided by each of the entities in figure 4-1 is described briefly as follows:
 
@@ -1014,7 +1014,7 @@ The functions of the Ingest entity are illustrated in figure 4-2.
 
 Figure 4-2:  Functions of Ingest
 
-![Image](artifects/image_000007_180551374cf5447da9db59a9e4cbc7480e724996fe0bfface38bfc1e4f8ed10d.png)
+![Image](artifacts/image_000007_180551374cf5447da9db59a9e4cbc7480e724996fe0bfface38bfc1e4f8ed10d.png)
 
 The Receive Submission function provides the appropriate storage capability or devices to receive a SIP from the Producer (or from Administration).  Digital SIPs may be delivered via electronic  transfer  (e.g.,  FTP),  loaded  from  media  submitted  to  the  archive,  or  simply mounted  (e.g.,  CD-ROM)  on  the  archive  file  system  for  access.    Non-digital  SIPs  would likely be delivered by conventional shipping procedures.  The Receive Submission function may represent a legal transfer of custody for the Content Information in the SIP, and may require  that  special  access  controls  be  placed  on  the  contents.    This  function  provides  a confirmation of receipt of a SIP to the Producer, which may include a request to resubmit a SIP in the case of errors resulting from the SIP submission.
 
@@ -1038,7 +1038,7 @@ The functions of the Archival Storage entity are illustrated in figure 4-3.
 
 Figure 4-3:  Functions of Archival Storage
 
-![Image](artifects/image_000008_6d6082c5316ab86aca57963ff64748f7595d93cd16724b469707ac61c81a17a6.png)
+![Image](artifacts/image_000008_6d6082c5316ab86aca57963ff64748f7595d93cd16724b469707ac61c81a17a6.png)
 
 The Receive Data function receives a storage request and an AIP from Ingest and moves the AIP to permanent storage within the archive.  The transfer request may need to indicate the anticipated frequency of utilization of the data objects comprising the AIP in order to allow the appropriate storage devices or media to be selected for storing the AIP.  This function will select the media type, prepare the devices or volumes, and perform the physical transfer to  the  Archival  Storage  volumes.    Upon  completion  of  the  transfer,  this  function  sends  a storage confirmation message to Ingest, including the storage identification of the AIPs.
 
@@ -1068,7 +1068,7 @@ The functions of the Data Management entity are illustrated in figure 4-4.
 
 Figure 4-4:  Functions of Data Management
 
-![Image](artifects/image_000009_3c88550b8b8a80311dd4c3617cef7d310cf1b01824cef9ebcb802814d1ed727b.png)
+![Image](artifacts/image_000009_3c88550b8b8a80311dd4c3617cef7d310cf1b01824cef9ebcb802814d1ed727b.png)
 
 The Administer Database function is responsible for maintaining the integrity of the Data Management database, which contains both Descriptive Information and system information. Descriptive Information identifies and describes the archive holdings, and system information  is  used  to  support  archive  operations.    The  Administer  Database  function  is responsible for creating any schema or table definitions required to support Data Management  functions; for providing the capability to create, maintain and access customized user views of the contents of this storage; and for providing internal validation (e.g., referential integrity) of the contents of the database.  The Administer Database function is carried out in accordance with policies received from Administration.
 
@@ -1090,7 +1090,7 @@ The functions of the Administration entity are illustrated in figure 4-5.
 
 Figure 4-5:  Functions of Administration
 
-![Image](artifects/image_000010_702742d57f9441f1a262e8371e97da31cc8dce762d971923017f67f329c0e06d.png)
+![Image](artifacts/image_000010_702742d57f9441f1a262e8371e97da31cc8dce762d971923017f67f329c0e06d.png)
 
 The Negotiate Submission Agreement function  solicits  desirable  archival  information  for the  OAIS  and  negotiates Submission  Agreements with  Producers.    This  function  also negotiates a data submission schedule with the Producer.  It maintains a calendar of expected Data Submission Sessions that will be needed to transfer one or more SIPs to the OAIS and the  resource  requirements  to  support  their  ingestion.    This  function  receives AIP/SIP templates and customization advise from Preservation Planning and sends SIP designs and SIPs to the Audit Submission function as part of the submission approval process.  The data submission  formats  and  procedures  must  be  clearly  documented  in  the  archive's  data
 
@@ -1126,7 +1126,7 @@ The functions of the Preservation Planning entity are illustrated in figure 4-6.
 
 Figure 4-6:  Functions of Preservation Planning
 
-![Image](artifects/image_000011_75db7761c163cc612bb6f703ca077d2d71f9f375b763889061f82ba6da12dcbf.png)
+![Image](artifacts/image_000011_75db7761c163cc612bb6f703ca077d2d71f9f375b763889061f82ba6da12dcbf.png)
 
 The Monitor  Designated  Community function  interacts  with  archive  Consumers  and Producers to track changes in their service requirements and available product technologies . Such  requirements  might  include  data  formats,  media  choices,  preferences  for  software packages, new computing platforms, and mechanisms for communicating with the archive. This function may be accomplished via surveys ,  via  a  periodic  formal  review  process,  via community workshops where feedback is solicited or by individual interactions.  It provides reports , requirements alerts and emerging standards to the Develop Preservation Strategies and Standards function.  It sends preservation requirements to Develop Packaging Designs.
 
@@ -1154,7 +1154,7 @@ The functions of the Access entity are illustrated in figure 4-7.
 
 Figure 4-7:  Functions of Access
 
-![Image](artifects/image_000012_fa7b1bd7a112c8fb72656fa836a35b55e05a75480179990b0075b1b5933630b1.png)
+![Image](artifacts/image_000012_fa7b1bd7a112c8fb72656fa836a35b55e05a75480179990b0075b1b5933630b1.png)
 
 The Coordinate  Access  Activities function provides a single user interface to the information holdings of the archive.  This interface will normally be via computer network or dial-up link to an on-line service, but might also be implemented in the form of a walk-in facility,  printed  catalog  ordering  service,  or  fax-back  type  service.    Three  categories  of Consumer  requests  are distinguished: query requests, which  are executed in Data Management and return immediate result sets for  presentation to the user; report requests, which may require a number of queries and produce formatted reports for  delivery  to  the Consumer;  and orders, which  may  access  either  or  both  Data  Management  and  Archival Storage  to  prepare  a  formal Dissemination  Information  Package  (DIP) for  on-  or  off-line delivery.  An order may be an Adhoc Order that is executed only once, or an Event Based Order  that  will  be  maintained  by  the  Activate  Requests  function  in  Administration,  and initiated by a dissemination request that may result in periodic deliveries of requested items. The  Archival  Information  Update  function  in  Administration  also  submits dissemination requests to obtain DIPs needed to perform its update functions.  Other special request types are allowed, but are not detailed.  This function will determine if resources are available to perform  a  request,  assure  that  the  user  is  authorized  to  access  and  receive  the  requested items, and notify the Consumer that a request has been accepted or rejected (possibly with an estimate of request cost and an option to cancel the request).  It will then transfer the request to  Data  Management  or  to  the  Generate  DIP  function  for  execution.    This  function  also provides assistance to  OAIS  Consumers  including  providing  status  of  orders  and  other Consumer support activities in response to an assistance request .
 
@@ -1174,13 +1174,13 @@ The flow of data items among the OAIS functional entities is diagrammed in this 
 
 Figure 4-8:  OAIS Data Flow Diagram
 
-![Image](artifects/image_000013_32ef5690c5691707c386f79e4e501691e9ac7d932c644aa4dd7e6777b58c411f.png)
+![Image](artifacts/image_000013_32ef5690c5691707c386f79e4e501691e9ac7d932c644aa4dd7e6777b58c411f.png)
 
 ## CCSDS RECOMMENDATION FOR AN OAIS REFERENCE MODEL CCSDS HISTORICAL DOCUMENT
 
 Figure 4-9:  Administration Context Diagram
 
-![Image](artifects/image_000014_db3578bb90cf28f4c519e3bf6b60bc49117b934b0e75b958b80db71dbee6d217.png)
+![Image](artifacts/image_000014_db3578bb90cf28f4c519e3bf6b60bc49117b934b0e75b958b80db71dbee6d217.png)
 
 ## 4.2 INFORMATION MODEL
 
@@ -1202,7 +1202,7 @@ A  basic  concept  of  the  OAIS  Reference  Model  is  the  concept  of  inform
 
 Figure 4-10:  Information Object
 
-![Image](artifects/image_000015_facd5f54c8d3368252e1f69ac7690f1527f83d4f941dfe44b68a369201f873c6.png)
+![Image](artifacts/image_000015_facd5f54c8d3368252e1f69ac7690f1527f83d4f941dfe44b68a369201f873c6.png)
 
 ## 4.2.1.2 Data Object
 
@@ -1230,7 +1230,7 @@ As  an  example,  ISO  9660  (reference  [13])  describes  text  as  conforming 
 
 Figure 4-11:  Representation Information Object
 
-![Image](artifects/image_000016_2c1120ee43cf3bf3eb66cf3cb20631b6f7435b39b9a395571f237e1f532174dd.png)
+![Image](artifacts/image_000016_2c1120ee43cf3bf3eb66cf3cb20631b6f7435b39b9a395571f237e1f532174dd.png)
 
 ## 4.2.1.3.2 Representation Networks
 
@@ -1256,7 +1256,7 @@ Descriptive Information objects.  The following subsections discuss the contents
 
 Figure 4-12:  Information Object Taxonomy
 
-![Image](artifects/image_000017_176c0428080f0037b44040f7b85322487b47f99c439370ee9158bc1431247c36.png)
+![Image](artifacts/image_000017_176c0428080f0037b44040f7b85322487b47f99c439370ee9158bc1431247c36.png)
 
 ## 4.2.1.4.1 Content Information
 
@@ -1359,7 +1359,7 @@ Information Packages that are used within the archival process.  These Informati
 
 Figure 4-13:  Information Package Contents
 
-![Image](artifects/image_000018_c69430095544ea7ba742b22c8ec79acfac8597aefc0cb0cd5d00d174787dbdc3.png)
+![Image](artifacts/image_000018_c69430095544ea7ba742b22c8ec79acfac8597aefc0cb0cd5d00d174787dbdc3.png)
 
 ## 4.2.2.2 Types of Information Packages
 
@@ -1367,7 +1367,7 @@ There  are  three  subtypes  of  the  Information  Package  identified  in  2.2:
 
 Figure 4-14:  Information Package Taxonomy
 
-![Image](artifects/image_000019_589eeff07bfe9c67d621b755a0b7263ba78098ea8b77a709799d4141f179b48a.png)
+![Image](artifacts/image_000019_589eeff07bfe9c67d621b755a0b7263ba78098ea8b77a709799d4141f179b48a.png)
 
 It is necessary to distinguish between an Information Package that is preserved by an OAIS and the Information Packages that are submitted to, and disseminated from, an OAIS.  These variant packages are needed to reflect the reality that some submissions to an OAIS will have insufficient Representation Information or PDI to meet final OAIS preservation requirements.  In addition, they may be organized very differently from the way the OAIS organizes  the  information  it  is  preserving.    Finally,  the  OAIS  may  provide  information  to Consumers that does not include all the Representation Information or all the PDI with the associated  Content  Information  being  disseminated.    These  variants  are  referred  to  as  the Submission  Information  Package  (SIP),  the  Archival  Information  Package  (AIP),  and  the Dissemination  Information  Package  (DIP).    Although  these  are  all  Information  Packages, they  differ  in  mandatory  content  and  the  multiplicity  of  the  associations  among  contained classes.
 
@@ -1395,7 +1395,7 @@ An Archival Information Package (AIP), which is modeled in figure 4-15, is a spe
 
 Figure 4-15:  Archival Information Package (AIP)
 
-![Image](artifects/image_000020_f1dc626a693c293c86398773b6dd79097facd86978f5afd83d2ddf1956b1fdcd.png)
+![Image](artifacts/image_000020_f1dc626a693c293c86398773b6dd79097facd86978f5afd83d2ddf1956b1fdcd.png)
 
 Also within the AIP is an Information Object called the Preservation Description Information (PDI).  The PDI contains additional information about the Content Information and is needed to make the Content Information meaningful for the indefinite long-term.
 
@@ -1405,7 +1405,7 @@ For example, in some OAIS holdings a statement that the creator of the Content I
 
 Figure 4-16:  Preservation Description Information (PDI)
 
-![Image](artifects/image_000021_bf1bf52be783d04557996f3342c21704647d1f5f6b841d9fd94524d2b88c789a.png)
+![Image](artifacts/image_000021_bf1bf52be783d04557996f3342c21704647d1f5f6b841d9fd94524d2b88c789a.png)
 
 The  AIP  is  delimited  and  identified  by  the  Packaging  Information.    The  Packaging Information may actually be present as a structure on the media that contains the AIP or, it
 
@@ -1417,7 +1417,7 @@ Each AIP is associated with a structured form of Descriptive Information called 
 
 Figure 4-17:  Package Description
 
-![Image](artifects/image_000022_cd385e84c1682a1b75dfe6e5386ab6f89f81572fcb3fe4b3c2fac2675cf16087.png)
+![Image](artifacts/image_000022_cd385e84c1682a1b75dfe6e5386ab6f89f81572fcb3fe4b3c2fac2675cf16087.png)
 
 The Package Description must contain one Associated Description that supplies data for a Retrieval  Aid  that  allows  authorized  users  to  retrieve  the  Content  Information  and  PDI described by the Package Description.  This Retrieval Aid is generally part of the Archival Storage  functional  area.    It  translates  from  the  unique  identifier  assigned  by  the  OAIS  to identify the AIP into the set of operations and filenames needed to retrieve the AIP from the file management system used in Archival Storage, then returns the Content Information and PDI for  the  requested  AIP.    In  most  current  archives,  only  internal  archive  processes  and operations  personnel  and  functions  are  authorized  to  use  this  Access  Aid.    However,  as technology  advances  increase  the  processing  power  of  the  archive  and  the  bandwidth
 
@@ -1441,7 +1441,7 @@ Figure 4-18 gives a detailed view of the Archival Information Package by expandi
 
 Figure 4-18:  Archival Information Package (Detailed View)
 
-![Image](artifects/image_000023_fca87b7d87b6d10c89b4cca9da97539046d70fb078ee80123031f46153727bce.png)
+![Image](artifacts/image_000023_fca87b7d87b6d10c89b4cca9da97539046d70fb078ee80123031f46153727bce.png)
 
 ## 4.2.2.4 Specialization of the AIP and Package Descriptions
 
@@ -1451,7 +1451,7 @@ Two specializations of the AIP are discussed in this subsection, the Archival In
 
 Figure 4-19:  Archival Specialization of the AIP
 
-![Image](artifects/image_000024_eff4f6a5d1cd0c8a6bf01ec1d6f6c17949659dc99c3f8d20b4deda84bea8f4fd.png)
+![Image](artifacts/image_000024_eff4f6a5d1cd0c8a6bf01ec1d6f6c17949659dc99c3f8d20b4deda84bea8f4fd.png)
 
 From an Access viewpoint, new subsetting and manipulation capabilities are beginning to blur the distinction between AICs and AIUs.  Content objects which used to be viewed as atomic can now be viewed as containing a large variation of contents based on the subsetting parameters chosen.  In a more extreme example, the Content Information of an AIU may not exist as a physical entity.  The Content Information could consist of several input files (or pointers to the AIPs containing these data files) and an algorithm which uses these files to create the data object of interest.
 
@@ -1461,7 +1461,7 @@ There  are  two  specializations  of  the  Package  Description,  the  Unit  Des
 
 Figure 4-20:  Archival Specialization of the Package
 
-![Image](artifects/image_000025_f67ffe538b26f3bbb750368814b0088536f964f01f7cb66a7cb932bf51694c2e.png)
+![Image](artifacts/image_000025_f67ffe538b26f3bbb750368814b0088536f964f01f7cb66a7cb932bf51694c2e.png)
 
 To aid in the understanding of these constructs, the next two subsections of this document will use an example of a company setting up an OAIS of digital versions of movies.  This example will focus on the information content of constructs in an AIP.  Subsection 4.3 will illustrate more of the details of the information transformations and data flows in an OAIS.
 
@@ -1475,7 +1475,7 @@ In the example of an OAIS for digital movies, the AIU for a single movie can be 
 
 Figure 4-21:  Archival Information Unit (AIU)
 
-![Image](artifects/image_000026_7bc9a4529bb9a083875fc7af2df27c0b4efe16bcb0d3d31961e8fd462492c0cc.png)
+![Image](artifacts/image_000026_7bc9a4529bb9a083875fc7af2df27c0b4efe16bcb0d3d31961e8fd462492c0cc.png)
 
 ## 4.2.2.6 Unit Description
 
@@ -1485,7 +1485,7 @@ The Unit Description is a specialization of the Package Description that always 
 
 Figure 4-22:  Unit Description
 
-![Image](artifects/image_000027_96bf27f9c25992ad0999ea947668bc8233834aa2332c29bce2a8faeade51a94b.png)
+![Image](artifacts/image_000027_96bf27f9c25992ad0999ea947668bc8233834aa2332c29bce2a8faeade51a94b.png)
 
 All Unit Descriptions must supply an Associated Description for a Retrieval Aid that enables authorized  users  to  retrieve  the  AIU  described  by  the  Unit  Description  from  Archival Storage.    This  description  includes  the  unique  identifier  assigned  to  the  AIP  by  Archival Storage during the Ingest Process.
 
@@ -1515,7 +1515,7 @@ A logical model of an AIC is shown in figure 4-23.  As in the previous subsectio
 
 Figure 4-23:  Archive Information Collections Logical View
 
-![Image](artifects/image_000028_4b700c485ee3a2f7e9ad756b75c31cc2b490cf020fe366ec0447cb93a5507042.png)
+![Image](artifacts/image_000028_4b700c485ee3a2f7e9ad756b75c31cc2b490cf020fe366ec0447cb93a5507042.png)
 
 For  example,  a  pattern  recognition  technique  might  be  created  for  digital  movies  and  the OAIS for digital movies might offer a service to search its archives for large structures such as  the  pyramids or a New York skyline.  Note that this type of service is very processing intensive,  involving  potentially  large  numbers  of  AIUs  to  be  transferred  from  Archival Storage  to  Access  and  then  running  the  appropriate  process  to  analyze  the  Content Information  from  each  AIU.    If  the  results  are  generally  useful,  the  archivist  could summarize the results of this 'content based query' into an Associated Description of a new AIC that contains movies with large structures.  This technique is frequently referred to as data mining.
 
@@ -1534,7 +1534,7 @@ There are two types of Associated Description in a Collection Description:
 
 Figure 4-24:  Collection Descriptions
 
-![Image](artifects/image_000029_2680c2a7ba8df873e1e2df81888be938ed4ea0de21991c3c4cb397c766d2e63e.png)
+![Image](artifacts/image_000029_2680c2a7ba8df873e1e2df81888be938ed4ea0de21991c3c4cb397c766d2e63e.png)
 
 The  required  Associated  Description  in  a  Collection  Description  provides  information  for Ordering Aids that provide a user with access to the entire set of Content Information of the associated AIC and the PDI for the AIC, but not necessarily to the individual AIPs contained in the AIC.  The Collection Description may contain the Package Descriptions of the AIPs contained in the AIC.  This containment relationship is logical in that the AIC may either include  the  Package  Descriptions  of  member  Information  Packages  directly  or,  more
 
@@ -1571,7 +1571,7 @@ These classes are intended as examples rather than an exhaustive list of the dat
 
 Figure 4-25:  Data Management Information
 
-![Image](artifects/image_000030_0488794e4f795d8ebc9161e71d552a7e8f16c705ab38d8fd110c0bf325232c4d.png)
+![Image](artifacts/image_000030_0488794e4f795d8ebc9161e71d552a7e8f16c705ab38d8fd110c0bf325232c4d.png)
 
 ## CCSDS RECOMMENDATION FOR AN OAIS REFERENCE MODEL
 
@@ -1583,7 +1583,7 @@ Figure  4-26  presents  a  high-level  data  flow  diagram  that  depicts  the  
 
 Figure 4-26:  High-Level Data Flows in an OAIS
 
-![Image](artifects/image_000031_b7c3b2f8ac47d7645ceb9c509d6751c9abb5cead5541dd1017b717a994b37d39.png)
+![Image](artifacts/image_000031_b7c3b2f8ac47d7645ceb9c509d6751c9abb5cead5541dd1017b717a994b37d39.png)
 
 ## 4.3.1 DATA TRANSFORMATIONS IN THE PRODUCER ENTITY
 
@@ -1675,7 +1675,7 @@ Key functional and information modeling concepts from section 4, as they relate 
 
 Figure 5-1:  Conceptual View of Relationships Among Names and AIP Components
 
-![Image](artifects/image_000032_a87b7da66003b6aebc755250d4942d4842ac7d545c9198516c5c9eec53e9c47e.png)
+![Image](artifacts/image_000032_a87b7da66003b6aebc755250d4942d4842ac7d545c9198516c5c9eec53e9c47e.png)
 
 The  OAIS  Consumer  interface  in  Access  provides  one  or  more  Content  Information  IDs, with associated name spaces, to assist in identifying a particular Content Information object of  interest.    One  or  more  of  these  Content  Information  IDs  will  be  included  in  the  PDI Reference  Information  associated  with  that  Content  Information  object.    The  Descriptive Information  in  Data  Management  will  map  each  of  these  IDs  to  the  same  AIP  ID.    The Access Function uses this information to obtain the AIP ID and gives it to Archival Storage to retrieve the associated AIP.
 
@@ -1872,13 +1872,13 @@ Figures 6-1 and 6-2 illustrate the concept of cooperating archives.
 
 Figure 6-1:  Cooperating Archives with Mutual Exchange Agreement
 
-![Image](artifects/image_000033_6886389e904b6ab15ceffcf57686223b1d9bfe01791775d3bf0a87a1a1464472.png)
+![Image](artifacts/image_000033_6886389e904b6ab15ceffcf57686223b1d9bfe01791775d3bf0a87a1a1464472.png)
 
 Figure  6-2  is  an  example  of  OAIS  archives  that  have  standardized  their  submission  and dissemination methods for the benefit of users.  No special external element is needed for this.    Its  disadvantage  is  that  there  is  no  formal  mechanism  for  exchange  of  Description Information so Consumers must have separate Search Sessions to locate AIPs of interest.
 
 Figure 6-2:  Cooperating Archives with Standard Ingest and Access Methods
 
-![Image](artifects/image_000034_f4dcdf40d8e27e35374bfb75e3d8108c24623ede1128c82f14a29eb475037207.png)
+![Image](artifacts/image_000034_f4dcdf40d8e27e35374bfb75e3d8108c24623ede1128c82f14a29eb475037207.png)
 
 ## 6.1.3 FEDERATED ARCHIVES
 
@@ -1890,7 +1890,7 @@ At the federated level of association, external elements can be introduced to im
 
 Figure 6-3:  An OAIS Federation Employing a Common Catalog
 
-![Image](artifects/image_000035_951dd2ef81af408f899aef4094b17be33835c6ec52e527fffc199db97176348c.png)
+![Image](artifacts/image_000035_951dd2ef81af408f899aef4094b17be33835c6ec52e527fffc199db97176348c.png)
 
 Federated archives may be further classified into three levels of functionality.
 
@@ -1928,7 +1928,7 @@ Figure 6-4  illustrates  the  sharing  of  a  common  storage  function,  consis
 
 Figure 6-4:  Archives with Shared Storage
 
-![Image](artifects/image_000036_7f7e49c91e66f89d6ed21e25fdb6f011b83de40348e3dbfa35b4878fbe4d83a9.png)
+![Image](artifacts/image_000036_7f7e49c91e66f89d6ed21e25fdb6f011b83de40348e3dbfa35b4878fbe4d83a9.png)
 
 ## 6.2 MANAGEMENT ISSUES WITH FEDERATED ARCHIVES
 
@@ -2586,7 +2586,7 @@ A key to object relationships in the UML diagrams of this document is shown in f
 
 Figure C-1:  Key to UML Relationships
 
-![Image](artifects/image_000037_4153ae4d3660480f94afb0ae46f3ef8abe1e014680d7babe990ab3ef92fc4c25.png)
+![Image](artifacts/image_000037_4153ae4d3660480f94afb0ae46f3ef8abe1e014680d7babe990ab3ef92fc4c25.png)
 
 A Class is indicated by a rectangle containing the Class name.  The UML representation of a class  is  a  three-compartment  rectangle  with  name  in  the  top  compartment  attributes  in  the second compartment and methods in the lowest compartment.  In this document the attributes and operations compartments are always empty and UML states empty compartments can be suppressed.
 
@@ -2634,7 +2634,7 @@ Subsection 4.2 and section 5 discussed that software is often used to end the Re
 
 Figure E-1:  Layered Information Model
 
-![Image](artifects/image_000038_8a76b4f1e6186eaef1bc8710f64cead0d88e990e0505950751db1e20c5a760f0.png)
+![Image](artifacts/image_000038_8a76b4f1e6186eaef1bc8710f64cead0d88e990e0505950751db1e20c5a760f0.png)
 
 - -The Media Layer simply models the fact that the bit strings are stored on physical or communications  media  as  magnetic  domains  or  as  voltages.    The  function  of  this
 
@@ -2668,6 +2668,6 @@ Figure  F-1  is  a  composite  of  figures  4-2  through  4-7.    It  is  provid
 
 Figure F-1:  Composite of Functional Entities
 
-![Image](artifects/image_000039_414bb6faa4a7336ce28d1a4363156d438398b6269580436a311662c0449d12b6.png)
+![Image](artifacts/image_000039_414bb6faa4a7336ce28d1a4363156d438398b6269580436a311662c0449d12b6.png)
 
 CCSDS HISTORICAL DOCUMENT
