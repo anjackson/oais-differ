@@ -6,12 +6,18 @@ Using Markdown and GitHub to see how the OAIS has changed.
 - Downloaded each version of the OAIS standard PDF
 - Used [Docling](https://docling-project.github.io/docling/) to convert PDF to Markdown.
 - Used an editor to normalise spaces `:%s/ +/ /g`
-- Committed the results to git branches and pushed to GitHub.
+- Committed the results to git and pushed to GitHub.
 
+The best arrangements for how to add them to Git were not clear.  I tried committing them as branches and as tags, and neither seemed to work that well. Partially because you're comparing commits, and these commits include the image files, which clutter up the difference view.  But also, when comparing branches, it seemed to struggle to compare them when there was a common history, but subsequent commits had been added (normalising spaces).
 
-Result: <https://github.com/anjackson/oais-differ/compare/2012...2024?diff=split&w#diff-c0866066239b8a685db373713dbb89e8192ddcfcfbf6052e5579035c8e67b74f>
+It wasn't clear to me why that wasn't working, so I just explicitly added each version to the `main` branch, and then made three distinct commits with each different version of the main `oais/index.md` text file. This makes comparing the versions easy (see below), but is a bit hacky and it would be better to make branches or tags work properly in the future.
 
-(it's the last entry, at the bottom, and you'll have to click to make it load the large diff)
+Results: 
+
+- [2002 v. 2012](https://github.com/anjackson/oais-differ/commit/4493459b922e61fa811d53caa9b40dd43eba2a9a)
+- [2012 to 2024](https://github.com/anjackson/oais-differ/commit/80b90c307182ca7fda0f6cfec6187a61ca3b10ca)
+ 
+(you'll have to click to make it load the large diff)
 
 
 Resources
