@@ -4,8 +4,9 @@ OAIS Differ
 Using Markdown and GitHub to see how the OAIS has changed.
 
 - Downloaded each version of the OAIS standard PDF
-- Used [Docling](https://docling-project.github.io/docling/) to convert PDF to Markdown
-- Committed the results to git and pushed to GitHub.
+- Used [Docling](https://docling-project.github.io/docling/) to convert PDF to Markdown.
+- Used an editor to normalise spaces `:%s/ +/ /g`
+- Committed the results to git branches and pushed to GitHub.
 
 
 Result: <https://github.com/anjackson/oais-differ/compare/2012...2024?diff=split&w#diff-c0866066239b8a685db373713dbb89e8192ddcfcfbf6052e5579035c8e67b74f>
