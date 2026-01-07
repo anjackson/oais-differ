@@ -6,6 +6,8 @@ Using Markdown and GitHub to see how the OAIS has changed.
 - Downloaded each version of the OAIS standard PDF
 - Used [Docling](https://docling-project.github.io/docling/) to convert PDF to Markdown.
 - Used an editor to normalise spaces `:%s/ +/ /g`
+- **TODO** Strip repeated page headers (`## CCSDS RECOMMENDED PRACTICE FOR AN OAIS REFERENCE MODEL` and `## CCSDS HISTORICAL DOCUMENT`)
+- **TODO** Strip 3+ multiple newlines down to two.
 - Committed the results to git and pushed to GitHub.
 
 The best arrangements for how to add them to Git were not clear.  I tried committing them as branches and as tags, and neither seemed to work that well. Partially because you're comparing commits, and these commits include the image files, which clutter up the difference view.  But also, when comparing branches, it seemed to struggle to compare them when there was a common history, but subsequent commits had been added (normalising spaces).
